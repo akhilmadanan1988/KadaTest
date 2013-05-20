@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Tahoma-Regular';
+    src: url('../fonts/tahoma.eot');
+    src: url('../fonts/tahoma.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tahoma.woff') format('woff'),
+         url('../fonts/tahoma.ttf') format('truetype'),
+         url('../fonts/tahoma.svg#Tahoma-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(../fonts/y7lebkjgREBJK96VQi37ZobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+.ui-overlay-c {
+	background:#ffffff;
+}
+.ui-bar-f {
+border: 1px solid #e89445;
+background: #e89445;
+color: #fff;
+text-shadow: 0 1px 1px #335413;
+font-weight: bold;
+}
+.panelHeading{
+	background: #111;
+	border-top-width: 0;
+}
+.header{
+	background: url("../images/headerBackground.png") repeat-x ;
+	border:0px;
+	padding: 15px 3px 0px;
+}
+.header .ui-field-contain{
+	position: relative;
+	width: 66%;
+	border: 0px;
+	padding: .8em 0;
+	margin: 0;
+}
+
+.header .ui-field-contain .searchButton {
+	right: 2%;
+	top: 33%;
+	position: absolute;
+	float: left;
+}
+.header  a{
+	text-decoration: none;
+}
+.header .ui-btn-right{
+	top: 31px;
+}
+.ui-header .ui-btn-right{
+	right: 3px;
+}
+.logoPortion{
+	padding-top: 22px;
+}
+.categoryList{
+	width: 32.66%;
+	margin: 0 1% 1% 0;
+	text-align: center;
+	float: left;
+}
+.lastCategoryList{
+	margin-right: 0px;
+}
+.categoryList a.ui-link{
+	width: 100%;
+	float: left;
+	text-decoration: none;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+.categoryList a img{
+	padding-top: 10px;
+}
+.categoryList span{
+	color: #FEFEFE;
+	font-size: 0.593em;
+	font-family: 'Roboto Slab';
+	width: 100%;
+	float: left;
+	text-shadow: none;
+}
+.ui-content {
+	padding: 0px;
+}
+.firstDiagonal{
+	background-color: #96B045;
+}
+.secondDiagonal{
+	background-color: #D8813A;
+}
+.thirdDiagonal{
+	background-color: #598BC8;
+}
+.fourthDiagonal{
+	background-color: #858688;
+}
+.footer {
+	background: #E6E7E9;
+	border: 1px solid #C0C1C3;
+	font-weight: normal;
+	color: #1D1E1E;
+	font-size: 0.595em;
+	font-family: 'Roboto Slab';
+	text-shadow: none;
+}
+.footer ul{
+	margin: 0px;
+	padding: 1px 3px;
+	float: left;
+	width: 98%;
+}
+.footer ul li{
+	list-style: none;
+	float: left;
+}
+.footer ul li.firstLi{
+	width: 46%;
+	padding-top: 6px;
+}
+.footer ul li.ui-btn-right{
+	padding-top: 3px;
+	max-width: 41%;
+}
+.footer ul li.firstLi span.price{
+	width: 36%;
+	word-wrap: break-word;
+}
+.footer ul li.secondLi{
+	width: 35px;
+}
+.footer ul li.secondLi img.arrowImage{
+	padding-left: 12px;
+	padding-bottom: 3px;
+}
+.footer ul li span{
+	float: left;
+}
+.footer ul li img{
+	padding-top: 1px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}

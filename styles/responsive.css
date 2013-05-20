@@ -1,0 +1,38 @@
+/* minwidth 28em */
+@media (min-width: 28em){
+	.header .ui-field-contain div.ui-input-text {
+		width: 100%;
+	}
+}
+/* minwidth 46em */
+
+@media (min-width: 46em){
+.pageContent{
+padding: 15px 5% 4.5em;
+}
+}
+
+/* minwidth 46em */
+
+@media (min-width: 60em){
+.pageContent{
+padding-right: 15%;
+padding-left: 18%;
+}
+}
+@media screen and (orientation: landscape){
+	.header .ui-field-contain {
+		width: auto;
+	}
+	.header .ui-field-contain .searchButton {
+		right: 18%;
+		top: 24%;
+	}
+	.header .ui-field-contain {
+		margin: 0.8em 0;
+		padding: 0px;
+	}
+	.header .ui-field-contain div.ui-input-text {
+		width: 83%;
+	}
+}
